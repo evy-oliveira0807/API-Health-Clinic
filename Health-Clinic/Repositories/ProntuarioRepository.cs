@@ -4,24 +4,21 @@ using Health_Clinic.Interfaces;
 
 namespace Health_Clinic.Repositories
 {
-    public class TiposUsuarioRepository : ITiposUsuarioRepository
+    public class ProntuarioRepository : IProntuarioRepository
     {
-
-        
         private readonly ClinicContext ctx;
-        
-        public TiposUsuarioRepository()
+
+        public ProntuarioRepository()
         {
             ctx = new ClinicContext();
         }
-
-        public void Cadastrar(TiposUsuario tiposUsuario)
+      
+        public void Cadastrar(Prontuario prontuario)
         {
             try
             {
-                tiposUsuario.IdTiposUsuario = Guid.NewGuid();
-
-                ctx.TiposUsuario.Add(tiposUsuario);
+                prontuario.IdProntuario = Guid.NewGuid();
+               ctx.Prontuario.Add(prontuario);
 
                 ctx.SaveChanges();
             }
@@ -32,20 +29,20 @@ namespace Health_Clinic.Repositories
             }
         }
 
-        public void Deletar(Guid id)
+        public void Delete(Guid id)
         {
-            TiposUsuario TipousuarioBuscado = ctx.TiposUsuario.Find(id);
+            Prontuario ProntuarioBuscado = ctx.Prontuario.Find(id);
 
-            ctx.TiposUsuario.Remove(TipousuarioBuscado);
+            ctx.Prontuario.Remove(ProntuarioBuscado);
 
             ctx.SaveChanges();
         }
 
-        public List<TiposUsuario> Listar()
+        public List<Prontuario> Listar(Guid id)
         {
             try
             {
-                return ctx.TiposUsuario.ToList();
+                return ctx.Prontuario.ToList();
             }
             catch (Exception)
             {
@@ -54,8 +51,9 @@ namespace Health_Clinic.Repositories
             }
         }
 
-       
-         
+        internal object? Listar()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
-

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\53143873876\\Desktop\\Health-Clinic\\Health-Clinic.csproj": {}
+    "C:\\Users\\53143873876\\Desktop\\API-Health-Clinic\\Health-Clinic\\Health-Clinic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\53143873876\\Desktop\\Health-Clinic\\Health-Clinic.csproj": {
+    "C:\\Users\\53143873876\\Desktop\\API-Health-Clinic\\Health-Clinic\\Health-Clinic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\53143873876\\Desktop\\Health-Clinic\\Health-Clinic.csproj",
+        "projectUniqueName": "C:\\Users\\53143873876\\Desktop\\API-Health-Clinic\\Health-Clinic\\Health-Clinic.csproj",
         "projectName": "Health-Clinic",
-        "projectPath": "C:\\Users\\53143873876\\Desktop\\Health-Clinic\\Health-Clinic.csproj",
+        "projectPath": "C:\\Users\\53143873876\\Desktop\\API-Health-Clinic\\Health-Clinic\\Health-Clinic.csproj",
         "packagesPath": "C:\\Users\\53143873876\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\53143873876\\Desktop\\Health-Clinic\\obj\\",
+        "outputPath": "C:\\Users\\53143873876\\Desktop\\API-Health-Clinic\\Health-Clinic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\53143873876\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "Decos.Http.Signatures.Validation": {
+              "target": "Package",
+              "version": "[1.2.1, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

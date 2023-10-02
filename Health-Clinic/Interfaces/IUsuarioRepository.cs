@@ -10,6 +10,6 @@ namespace Health_Clinic.Interfaces
 
         Usuario BuscarPorEmailESenha(string email, string senha);
 
-        Usuario BuscarUsuario(string? email, string? senha);
+        
     }
 }

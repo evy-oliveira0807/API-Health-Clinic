@@ -75,3 +75,13 @@ C:\Users\53143873876\Desktop\Health-Clinic\bin\Debug\net7.0\runtimes\win\lib\net
 C:\Users\53143873876\Desktop\Health-Clinic\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\53143873876\Desktop\Health-Clinic\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\53143873876\Desktop\Health-Clinic\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\Health-Clinic.csproj.AssemblyReference.cache
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\Health-Clinic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\Health-Clinic.AssemblyInfoInputs.cache
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\Health-Clinic.AssemblyInfo.cs
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\Health-Clinic.csproj.CoreCompileInputs.cache
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\Health-Clinic.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\Health-Clinic.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\Health-Clinic.dll
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\refint\Health-Clinic.dll
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\Health-Clinic.pdb

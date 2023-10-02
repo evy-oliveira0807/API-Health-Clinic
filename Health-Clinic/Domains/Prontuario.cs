@@ -8,9 +8,14 @@ namespace Health_Clinic.Domains
     {
 
         [Key]
-        public Guid Id { get; set; }
+        public Guid IdProntuario { get; set; } = Guid.NewGuid();
 
         [Column(TypeName = "TEXT")]
         public string? Descricao { get; set; }
+        [Required(ErrorMessage = "O ID do Paciente é obrigatório")]
+        public Guid IdPaciente { get; set; }
+
+        [ForeignKey(nameof(IdPaciente))]
+        public Paciente? Paciente { get; set; }
     }
 }

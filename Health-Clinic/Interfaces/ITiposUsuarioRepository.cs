@@ -10,6 +10,5 @@ namespace Health_Clinic.Interfaces
 
         List<TiposUsuario> Listar();
 
-       void Atualizar(Guid id, TiposUsuario tiposUsuario);
     }
 }
