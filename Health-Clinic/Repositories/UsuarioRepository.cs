@@ -9,11 +9,11 @@ namespace Health_Clinic.Repositories
     {
         private readonly ClinicContext _clinicContext;
     
-        private ClinicContext ctx;
+       
 
         public UsuarioRepository()
         {
-            ctx = new ClinicContext();
+            _clinicContext = new ClinicContext();
         }
 
         public Usuario BuscarPorEmailESenha(string email, string senha)

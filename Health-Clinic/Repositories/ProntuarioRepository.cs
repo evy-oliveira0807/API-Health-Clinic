@@ -6,11 +6,11 @@ namespace Health_Clinic.Repositories
 {
     public class ProntuarioRepository : IProntuarioRepository
     {
-        private readonly ClinicContext ctx;
+        private readonly ClinicContext _clinicContext;
 
         public ProntuarioRepository()
         {
-            ctx = new ClinicContext();
+            _clinicContext = new ClinicContext();
         }
       
         public void Cadastrar(Prontuario prontuario)
@@ -18,9 +18,9 @@ namespace Health_Clinic.Repositories
             try
             {
                 prontuario.IdProntuario = Guid.NewGuid();
-               ctx.Prontuario.Add(prontuario);
+                _clinicContext.Prontuario.Add(prontuario);
 
-                ctx.SaveChanges();
+                _clinicContext.SaveChanges();
             }
             catch (Exception)
             {
@@ -31,18 +31,18 @@ namespace Health_Clinic.Repositories
 
         public void Delete(Guid id)
         {
-            Prontuario ProntuarioBuscado = ctx.Prontuario.Find(id);
+            Prontuario ProntuarioBuscado = _clinicContext.Prontuario.Find(id);
 
-            ctx.Prontuario.Remove(ProntuarioBuscado);
+            _clinicContext.Prontuario.Remove(ProntuarioBuscado);
 
-            ctx.SaveChanges();
+            _clinicContext.SaveChanges();
         }
 
         public List<Prontuario> Listar(Guid id)
         {
             try
             {
-                return ctx.Prontuario.ToList();
+                return _clinicContext.Prontuario.ToList();
             }
             catch (Exception)
             {

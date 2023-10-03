@@ -9,5 +9,9 @@ namespace Health_Clinic.Interfaces
         void Atualizar(Guid id, Clinica clinica);
 
         void Deletar(Guid id);
+
+        List<Clinica> Listar();
+
+        Clinica BuscarPorId(Guid id);
     }
 }

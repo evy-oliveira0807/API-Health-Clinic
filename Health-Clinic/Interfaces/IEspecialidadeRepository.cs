@@ -7,5 +7,7 @@ namespace Health_Clinic.Interfaces
         void Cadastrar(Especialidade especialidade);
 
         void Deletar(Guid id);
+
+        List<Especialidade> Listar();
     }
 }

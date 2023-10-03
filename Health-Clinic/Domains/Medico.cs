@@ -40,4 +40,3 @@ namespace Health_Clinic.Domains
         public Especialidade? Especialidade { get; set; }
     }
 }
-

@@ -8,11 +8,11 @@ namespace Health_Clinic.Repositories
     {
 
         
-        private readonly ClinicContext ctx;
+        private readonly ClinicContext _clinicContext;
         
         public TiposUsuarioRepository()
         {
-            ctx = new ClinicContext();
+            _clinicContext = new ClinicContext();
         }
 
         public void Cadastrar(TiposUsuario tiposUsuario)
@@ -21,9 +21,9 @@ namespace Health_Clinic.Repositories
             {
                 tiposUsuario.IdTiposUsuario = Guid.NewGuid();
 
-                ctx.TiposUsuario.Add(tiposUsuario);
+                _clinicContext.TiposUsuario.Add(tiposUsuario);
 
-                ctx.SaveChanges();
+                _clinicContext.SaveChanges();
             }
             catch (Exception)
             {
@@ -34,18 +34,18 @@ namespace Health_Clinic.Repositories
 
         public void Deletar(Guid id)
         {
-            TiposUsuario TipousuarioBuscado = ctx.TiposUsuario.Find(id);
+            TiposUsuario TipousuarioBuscado = _clinicContext.TiposUsuario.Find(id);
 
-            ctx.TiposUsuario.Remove(TipousuarioBuscado);
+            _clinicContext.TiposUsuario.Remove(TipousuarioBuscado);
 
-            ctx.SaveChanges();
+            _clinicContext.SaveChanges();
         }
 
         public List<TiposUsuario> Listar()
         {
             try
             {
-                return ctx.TiposUsuario.ToList();
+                return _clinicContext.TiposUsuario.ToList();
             }
             catch (Exception)
             {
