@@ -14,7 +14,21 @@ namespace Health_Clinic.Repositories
         }
         public void Atualizar(Guid id, Consulta consulta)
         {
-            throw new NotImplementedException();
+
+            Consulta consultaBuscada = _clinicContext.Consulta.Find(id);
+
+            if (consultaBuscada == null)
+            {
+                consultaBuscada.DataConsulta = consulta.DataConsulta;
+                consultaBuscada.HorarioConsulta = consulta.HorarioConsulta;
+                consultaBuscada.Prontuário = consulta.Prontuário;
+                consultaBuscada.DescricaoConsulta = consulta.DescricaoConsulta;
+                consultaBuscada.IdConsulta = consulta.IdConsulta;               
+                consultaBuscada.IdMedico = consulta.IdMedico;
+             
+                              }
+            _clinicContext.Consulta.Update(consultaBuscada);
+            _clinicContext.SaveChanges();
         }
 
         public void Cadastrar(Consulta consulta)
@@ -43,4 +57,4 @@ namespace Health_Clinic.Repositories
     }
 }
 
-}
+

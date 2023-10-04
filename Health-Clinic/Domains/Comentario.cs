@@ -13,17 +13,20 @@ namespace Health_Clinic.Domains
         [Required(ErrorMessage = "O comentário sobre a clinica é obrigatório!")]
         public string? Descricao { get; set; }
 
-        [Required(ErrorMessage = "Campo de identificação é obrigatorio!")]
-        public Guid IdUsuario { get; set; }
+        //Adicionar referencia para Paciente
 
-        [ForeignKey(nameof(IdUsuario))]
-        public Usuario? Usuario { get; set; }
+        [Required(ErrorMessage = "Campo Paciente é obrigatorio!")]
+        public Guid IdPaciente { get; set; }
 
-        [Required(ErrorMessage = "Campo clinica é obrigatorio!")]
-        public Guid IdClinica { get; set; }
+        [ForeignKey(nameof(IdPaciente))]
+        public Paciente? Paciente { get; set; }
 
-        [ForeignKey(nameof(IdClinica))]
-        public Clinica? Clinica { get; set; }
+        //Adicionar referencia para consulta
 
+        [Required(ErrorMessage = "Campo Consulta é obrigatorio!")]
+        public Guid IdConsulta { get; set; }
+
+        [ForeignKey(nameof(IdConsulta))]
+        public Consulta? Consulta { get; set; }
     }
 }

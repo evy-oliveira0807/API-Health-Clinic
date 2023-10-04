@@ -10,6 +10,8 @@
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
           "Decos.Http.Signatures.Validation": "1.2.1",
+          "ErikEJ.EntityFrameworkCore.SqlServer.DateOnlyTimeOnly": "7.0.5",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.11",
           "Microsoft.AspNetCore.OpenApi": "7.0.11",
           "Microsoft.EntityFrameworkCore.Design": "7.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11",
@@ -87,6 +89,18 @@
           }
         }
       },
+      "ErikEJ.EntityFrameworkCore.SqlServer.DateOnlyTimeOnly/7.0.5": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.1.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11"
+        },
+        "runtime": {
+          "lib/net6.0/EntityFrameworkCore.SqlServer.DateOnlyTimeOnly.dll": {
+            "assemblyVersion": "7.0.5.0",
+            "fileVersion": "7.0.5.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -118,6 +132,17 @@
           "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0"
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.11": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.24.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "7.0.11.0",
+            "fileVersion": "7.0.1123.42502"
+          }
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {},
@@ -823,6 +848,13 @@
       "path": "decos.http.signatures.validation/1.2.1",
       "hashPath": "decos.http.signatures.validation.1.2.1.nupkg.sha512"
     },
+    "ErikEJ.EntityFrameworkCore.SqlServer.DateOnlyTimeOnly/7.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kGXyIHaCwFrQLaRQ+iPmSuuiV9OFXa3Ykq8LC8JM7zAxTitJXJJNTGOb6jqeQzuNQwb+8KTyi6iVQgeEgf1XlA==",
+      "path": "erikej.entityframeworkcore.sqlserver.dateonlytimeonly/7.0.5",
+      "hashPath": "erikej.entityframeworkcore.sqlserver.dateonlytimeonly.7.0.5.nupkg.sha512"
+    },
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -850,6 +882,13 @@
       "sha512": "sha512-XlVJzJ5wPOYW+Y0J6Q/LVTEyfS4ssLXmt60T0SPP+D8abVhBTl+cgw2gDHlyKYIkcJg7btMVh383NDkMVqD/fg==",
       "path": "microsoft.aspnetcore.authentication.core/2.2.0",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFLgrIjh9DsfSpSRmfb8PWswYSLxkdU/3y2d3yrSA9v+sajnqYP2BARKrxZlO/RlKKMboosAIYP2MajPJilv5w==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/7.0.11",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
       "type": "package",

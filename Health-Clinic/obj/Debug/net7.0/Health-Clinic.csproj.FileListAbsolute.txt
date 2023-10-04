@@ -152,3 +152,8 @@ C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\sc
 C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\Health-Clinic.csproj.CopyComplete
 C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\Health-Clinic.genruntimeconfig.cache
 C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\ref\Health-Clinic.dll
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\bin\Debug\net7.0\Health-Clinic.xml
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\Health-Clinic.xml
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\bin\Debug\net7.0\EntityFrameworkCore.SqlServer.DateOnlyTimeOnly.dll
+C:\Users\53143873876\Desktop\API-Health-Clinic\Health-Clinic\obj\Debug\net7.0\EFCoreSqlServerDateOnlyTimeOnly.cs

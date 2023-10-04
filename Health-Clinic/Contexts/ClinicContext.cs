@@ -17,7 +17,7 @@ namespace Health_Clinic.Contexts
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=NOTE11-S14; Database =HealthClinic_API; User id = sa; pwd = Senai@134; TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=NOTE11-S14; Database = HealthClinic_API; User id = sa; pwd = Senai@134; TrustServerCertificate=True;",x => x.UseDateOnlyTimeOnly());
             base.OnConfiguring(optionsBuilder);
         }
     

@@ -94,6 +94,26 @@
           }
         }
       },
+      "ErikEJ.EntityFrameworkCore.SqlServer.DateOnlyTimeOnly/7.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.1.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/EntityFrameworkCore.SqlServer.DateOnlyTimeOnly.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/EntityFrameworkCore.SqlServer.DateOnlyTimeOnly.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net6.0/ErikEJ.EntityFrameworkCore.SqlServer.DateOnlyTimeOnly.targets": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -164,6 +184,25 @@
             "related": ".xml"
           }
         }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.15.1"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
         "type": "package",
@@ -1690,6 +1729,21 @@
         "lib/netstandard2.0/Decos.Http.Signatures.Validation.xml"
       ]
     },
+    "ErikEJ.EntityFrameworkCore.SqlServer.DateOnlyTimeOnly/7.0.5": {
+      "sha512": "kGXyIHaCwFrQLaRQ+iPmSuuiV9OFXa3Ykq8LC8JM7zAxTitJXJJNTGOb6jqeQzuNQwb+8KTyi6iVQgeEgf1XlA==",
+      "type": "package",
+      "path": "erikej.entityframeworkcore.sqlserver.dateonlytimeonly/7.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net6.0/ErikEJ.EntityFrameworkCore.SqlServer.DateOnlyTimeOnly.targets",
+        "erikej.entityframeworkcore.sqlserver.dateonlytimeonly.7.0.5.nupkg.sha512",
+        "erikej.entityframeworkcore.sqlserver.dateonlytimeonly.nuspec",
+        "lib/net6.0/EntityFrameworkCore.SqlServer.DateOnlyTimeOnly.dll",
+        "lib/net6.0/EntityFrameworkCore.SqlServer.DateOnlyTimeOnly.xml",
+        "readme.md"
+      ]
+    },
     "Humanizer.Core/2.14.1": {
       "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "type": "package",
@@ -1745,6 +1799,21 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.xml",
         "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.11": {
+      "sha512": "xFLgrIjh9DsfSpSRmfb8PWswYSLxkdU/3y2d3yrSA9v+sajnqYP2BARKrxZlO/RlKKMboosAIYP2MajPJilv5w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/7.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
@@ -4183,6 +4252,8 @@
     "net7.0": [
       "BCrypt.Net-Next >= 4.0.3",
       "Decos.Http.Signatures.Validation >= 1.2.1",
+      "ErikEJ.EntityFrameworkCore.SqlServer.DateOnlyTimeOnly >= 7.0.5",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.11",
       "Microsoft.AspNetCore.OpenApi >= 7.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.11",
@@ -4236,6 +4307,14 @@
           "Decos.Http.Signatures.Validation": {
             "target": "Package",
             "version": "[1.2.1, )"
+          },
+          "ErikEJ.EntityFrameworkCore.SqlServer.DateOnlyTimeOnly": {
+            "target": "Package",
+            "version": "[7.0.5, )"
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[7.0.11, )"
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",

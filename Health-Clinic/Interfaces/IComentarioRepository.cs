@@ -6,7 +6,7 @@ namespace Health_Clinic.Interfaces
     {
         void Cadastrar(Comentario comentario);
 
-        void Atualizar(Guid id);
+        void Atualizar(Guid id, Comentario comentario);
         void Deletar(Guid id);
     }
 }

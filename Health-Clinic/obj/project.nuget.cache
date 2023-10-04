@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "COLTmEh+1q4hIz7LSW+x66KWTDqFwZf5t8pQhkPiFsR6nvATYB5ly/yapZ3Yvw/bmlJh2AgPt/rLlUAlZ980og==",
+  "dgSpecHash": "SY5JmnTCmTkMGofpnmvTzKcEd4h6ei8kIRRcQgn3wF7YtlI497u6e0AkeREFvJ8qpdGqT5g87lJv0OspJBQLvA==",
   "success": true,
   "projectFilePath": "C:\\Users\\53143873876\\Desktop\\API-Health-Clinic\\Health-Clinic\\Health-Clinic.csproj",
   "expectedPackageFiles": [
@@ -9,10 +9,12 @@
     "C:\\Users\\53143873876\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\53143873876\\.nuget\\packages\\decos.http.signatures\\1.2.1\\decos.http.signatures.1.2.1.nupkg.sha512",
     "C:\\Users\\53143873876\\.nuget\\packages\\decos.http.signatures.validation\\1.2.1\\decos.http.signatures.validation.1.2.1.nupkg.sha512",
+    "C:\\Users\\53143873876\\.nuget\\packages\\erikej.entityframeworkcore.sqlserver.dateonlytimeonly\\7.0.5\\erikej.entityframeworkcore.sqlserver.dateonlytimeonly.7.0.5.nupkg.sha512",
     "C:\\Users\\53143873876\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\53143873876\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\53143873876\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\53143873876\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\53143873876\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.11\\microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512",
     "C:\\Users\\53143873876\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\2.2.0\\microsoft.aspnetcore.cryptography.internal.2.2.0.nupkg.sha512",
     "C:\\Users\\53143873876\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\2.2.0\\microsoft.aspnetcore.dataprotection.2.2.0.nupkg.sha512",
     "C:\\Users\\53143873876\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\2.2.0\\microsoft.aspnetcore.dataprotection.abstractions.2.2.0.nupkg.sha512",

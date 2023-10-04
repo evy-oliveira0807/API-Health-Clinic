@@ -10,13 +10,13 @@ namespace Health_Clinic.Domains
 
         public Guid IdConsulta { get; set; } = Guid.NewGuid();
 
-        [Column(TypeName = "TIME")]
+        [Column(TypeName = "DATE")]
         [Required(ErrorMessage = "A data da consulta é obrigatória!")]
-        public TimeSpan DataConsulta { get; set; }
+        public DateOnly DataConsulta { get; set; }
 
         [Column(TypeName = "TIME")]
         [Required(ErrorMessage = "O horário da consulta é obrigatório!")]
-        public TimeSpan HorarioConsulta { get; set; }
+        public TimeOnly HorarioConsulta { get; set; }
 
         [Column(TypeName = "VARCHAR(256)")]
         [Required(ErrorMessage = "O médico precisa fornecer o prontuário da consulta!")]
@@ -24,14 +24,13 @@ namespace Health_Clinic.Domains
 
         [Column(TypeName = "TEXT")]
         [Required(ErrorMessage = "A descrisao da consulta e obrigatoria!")]
-
         public string? DescricaoConsulta { get; set;}
 
         [Required(ErrorMessage = "Campo paciente é obrigatorio!")]
         public Guid IdPaciente { get; set; }
 
         [ForeignKey(nameof(IdPaciente))]
-        public Paciente? PacienteConsulta { get; set; }
+        public Paciente? Paciente { get; set; }
 
         [Required(ErrorMessage = "Campo médico é obrigatorio!")]
         public Guid IdMedico { get; set; }
@@ -39,9 +38,5 @@ namespace Health_Clinic.Domains
         [ForeignKey(nameof(IdMedico))]
         public Medico? MedicoConsulta { get; set; }
 
-        public Guid IdComentario { get; set; }
-
-        [ForeignKey(nameof(IdComentario))]
-        public Comentario? ComentarioConsulta { get; set; }
     }
 }
