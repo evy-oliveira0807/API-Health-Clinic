@@ -1,0 +1,6 @@
+SELECT TOP (1000) [IdUsuario]
+      ,[Nome]
+      ,[Email]
+      ,[Senha]
+      ,[IdTiposUsuario]
+  FROM [HealthClinic_API].[dbo].[Usuario]
